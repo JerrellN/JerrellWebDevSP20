@@ -9,26 +9,66 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <ul id="navBar">
-        <li class = "siteTitle">
+    <nav id="navBar">
+        <h1 class = "siteTitle">
             Jerrell's Portfolio
-        </li>
-        <li class="navBarElement">
-            <a class="navBarContent" href="About">About</a>
-        </li>
-        <li class="navBarElement">
-            <a class="navBarContent" href="Sketches">Sketches</a>
-        </li>
-        <li class="navBarElement">
-            <a class="navBarContent" href="Assignments">Web Dev</a> 
-        </li>
-        <li class="navBarElement"><a class="navBarContent" href="index.html">Home</a></li>
-    </ul>
-    <h1>Portfolio Spotlight</h1>
-    <h2>Project: Steampunk Concept Art</h2>
-    <a href="images/arkwright_tower_thmb_smoke.JPG" target="blank"><img class="conceptArt" src="images/arkwright_tower_thmb_smoke.JPG"></a>
-    <a href="images/AW_bl_enviro.JPG" target="blank"><img class="conceptArt" src="images/AW_bl_enviro.JPG"></a>
-    <br>
-    <p>Art Credit: <a href="https://www.instagram.com/kenosystem/?hl=en" target="blank">@kenosystem</a></p>
+        </h1>
+        <ul id="navBarMenu">
+            <li class="navBarElement">
+                <a class="navBarContent" href="About">About</a>
+            </li>
+            <li class="navBarElement">
+                <a class="navBarContent" href="projectSteampunk/index.html">Project: Steampunk</a>
+            </li>
+            <li class="navBarElement">
+                <a class="navBarContent" href="Sketches">Sketches</a>
+            </li>
+            <li class="navBarElement">
+                <a class="navBarContent" href="Assignments">Web Dev</a> 
+            </li>
+        </ul>
+    </nav>
+    <h1 class="pageTitle">Portfolio Spotlight</h1>
+    <div class="container">
+        <div class="row">
+            <div class="imgCard">
+                <a href="https://jnolen.itch.io/forking-paths" target="blank">
+                    <img class ="containerContent" src="images/Screenshot (41).png">
+                </a>
+                <p class ="imageBottomText">
+                    Forking Paths. Text based game utilizing Twine.
+                </p>
+            </div>
+            <div class="imgCard>">
+                <a href="https://jnolen.itch.io/forking-paths-remake" target="blank">
+                    <img class="containerContent"src="images/Screenshot (50).png">
+                </a>
+                <p class="imageBottomText">
+                    Forking Paths Remake, recreation of Forking Paths with using Bitsy.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="imgCard">
+                <a href="projectSteampunk/docs/First Quest SP Second Draft.pdf" target="blank">
+                    <img class="containerContent" src="images/Screenshot (129).png">
+                </a>
+                <p class="imageBottomText">
+                    The story layout for the first quest of Project: Steampunk using Twine.
+                </p>
+            </div>
+            <div class="imgCard">
+                <a href="images/20200219_232707.jpg" target="blank">
+                    <img class="containerContent" src="images/20200219_232707.jpg">
+                </a>
+                <p class="imageBottomText">
+                    The first draft storyboard of the first quest for Project: Steampunk
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    
 </body>
 </html>

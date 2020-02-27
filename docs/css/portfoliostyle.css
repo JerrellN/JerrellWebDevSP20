@@ -1,32 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
 #navBar{
+    width: 99.5vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #303030;
+    border-radius: 5pt;
+    align-items: center;
+}
+
+#navBarMenu{
     list-style-type: none;
+    display: flex;
     margin: 0;
     padding: 0;
-    background-color: #303030;
-    align-content: center;
-    width: 100%;
-    height:50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    overflow: hidden;
-    border-radius: 5pt;
 }
 
 li.navBarElement{
-    float: right;
-    padding-top: 7px;
+    /*padding: calc(5px+.1vw);*/
 }
 
 a.navBarContent{
     color: #d6d6c2;
-    display: block;
-    padding: 8px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    
+    /*padding: calc(5px+.1vw);*/
+    padding: 5px;
 }
 
 a.navBarContent:hover{
@@ -34,14 +41,12 @@ a.navBarContent:hover{
     color: white;
 }
 
-li.siteTitle{
-    top:50%;
-    float: left;
-    display: block;
+h1.siteTitle{
     color: white;
-    padding: 8px;
-    font-size: 24pt;
+    font-size: calc(20px + 1vw);
     font-family: 'Squada One', cursive;
+    padding: 5px;
+
 }
 
 img.conceptArt{
@@ -51,5 +56,52 @@ img.conceptArt{
     padding: 20px;
 }
 
+h1.pageTitle{
+    text-align: center;
+}
 
+div.container{
+    width: 40vw;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border-radius: 5pt;
+    align-items: center;
+}
 
+div.row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+img.containerContent{
+    display: flex;
+    height: 25vw;
+    
+    width: auto;
+    padding: 20px;
+}
+
+p.imageBottomText{
+    text-align: center;
+}
+
+#contactInfo
+{
+    float: right;
+    color: #757575;
+}
+
+#resume{
+    float: right;
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+#resume:hover{
+    color:#5c5c5c;
+    text-decoration: underline;
+}
