@@ -46,6 +46,7 @@ h1.siteTitle{
     font-size: calc(20px + 1vw);
     font-family: 'Squada One', cursive;
     padding: 5px;
+    text-decoration: none;
 
 }
 
@@ -80,7 +81,6 @@ div.row{
 img.containerContent{
     display: flex;
     height: 25vw;
-    
     width: auto;
     padding: 20px;
 }
