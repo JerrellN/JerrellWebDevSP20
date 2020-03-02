@@ -1,7 +1,7 @@
 #container{
-    width: 30vw;
+    width: max-content;
     height: auto;
-    flex-direction: row;
+    flex-direction: column ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -34,7 +34,7 @@ div.box{
     border-radius: 5pt;
     transition-duration: 1s;
     transition-timing-function: ease;
-    transition-property: background-color, transform;
+    transition-property: background-color, transform, margin;
     pointer-events: auto;
 }
 
@@ -45,18 +45,7 @@ h1{
 div.box:hover{
     background-color: darkgray;
     transform: rotate(45deg) scale(1.25);
-    
-}
-
-div.row:hover{
-    padding-bottom: 3vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
-}
-
-#container:hover{
-    padding-left: 3vw;
-    padding-right: 3vw; 
+    margin: 3vw;
 }
 
 

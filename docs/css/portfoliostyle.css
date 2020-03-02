@@ -25,14 +25,14 @@ body{
 }
 
 li.navBarElement{
-    /*padding: calc(5px+.1vw);*/
+    padding: calc(5px + .1vw);
 }
 
 a.navBarContent{
     color: #d6d6c2;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    /*padding: calc(5px+.1vw);*/
+    padding: calc(5px + .1vw);
     padding: 5px;
 }
 
