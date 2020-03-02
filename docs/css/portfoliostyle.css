@@ -105,3 +105,8 @@ p.imageBottomText{
     color:#5c5c5c;
     text-decoration: underline;
 }
+
+#homeLink
+{
+    text-decoration: none;
+}

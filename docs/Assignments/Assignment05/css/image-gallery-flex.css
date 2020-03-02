@@ -7,7 +7,7 @@
     justify-content: space-around;
     margin: 0 auto;
     align-content: center;
-    
+    border: dotted gray;
     
 }
 
@@ -17,7 +17,7 @@ div.row{
 
 img.galleryImage{
     height: 10vw;
-    border: black solid;
+    border: black dotted;
     margin: .4vw;
 
 }
