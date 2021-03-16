@@ -50,6 +50,43 @@ h1.siteTitle{
 
 }
 
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1rem 1fr 1fr 1rem;
+    grid-gap: 1rem;
+}
+
+
+
+.aboutPicture{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 20rem;
+    height: auto;
+    
+}
+
+.aboutMe{
+    grid-row-start: 2;
+    grid-column-start: 3;
+    text-indent: 2rem;
+    background-color: #8a8a8a;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.socials{
+    grid-row-start: 3;
+    grid-column-start: 3;
+    background-color: #8a8a8a;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+}
+
 img.conceptArt{
     height: 200px;
     width: auto;
