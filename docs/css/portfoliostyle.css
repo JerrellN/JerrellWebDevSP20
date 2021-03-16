@@ -73,7 +73,7 @@ h1.siteTitle{
     grid-row-start: 2;
     grid-column-start: 3;
     text-indent: 2rem;
-    background-color: #8a8a8a;
+    background-color: #cccc;
     padding: 1rem;
     border-radius: 1rem;
 }
@@ -81,7 +81,7 @@ h1.siteTitle{
 .socials{
     grid-row-start: 3;
     grid-column-start: 3;
-    background-color: #8a8a8a;
+    background-color: #cccc;
     padding: 1rem;
     border-radius: 1rem;
 }
