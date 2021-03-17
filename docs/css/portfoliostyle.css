@@ -53,25 +53,36 @@ h1.siteTitle{
 
 .gridContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1rem 1fr 1fr 1rem;
+    grid-template-columns: 1rem 1fr 1fr 1fr 1fr 1fr 1rem;
+    grid-template-rows: 1rem 1fr 1fr .5fr .5fr 1rem;
     grid-gap: 1rem;
 }
 
+.borderlandsPic{
+    grid-row-start: 3;  
+    grid-column-start: 4;
+    width: 14rem; 
+}
 
-
-.aboutPicture{
-    grid-column-start: 2;
+.aboutPicture1{
+    grid-column-start: 6;
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 5;
     width: 20rem;
     height: auto;
     
 }
 
+.kkLogo{
+    width: 10rem;
+    margin: 1rem;
+}
+
 .aboutMe{
     grid-row-start: 2;
     grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-end: 3;
     text-indent: 2rem;
     background-color: #cccc;
     padding: 1rem;
@@ -80,12 +91,48 @@ h1.siteTitle{
 
 .socials{
     grid-row-start: 3;
-    grid-column-start: 3;
+    grid-column-start: 2;
     background-color: #cccc;
     padding: 1rem;
     border-radius: 1rem;
 }
 
+.favoriteGames{
+    grid-row-start: 3;
+    grid-column-start: 5;
+    background-color: #cccc;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.favoriteMusic{
+    grid-row-start: 2;
+    grid-column-start: 5;
+    background-color: #cccc;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+
+.faceShot{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    width: 14rem;
+    height: auto;
+}
+
+.favoriteList{
+    list-style: none;
+}
+
+.hobbies{
+    background-color: #cccc;
+    padding: 1rem;
+    border-radius: 1rem;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
 
 img.conceptArt{
     height: 200px;
@@ -119,11 +166,12 @@ div.row{
     padding: 1rem;
     border-radius: 1rem;
     margin: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .imgCard:hover{
     transform: translateY(-6px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img.containerContent{
