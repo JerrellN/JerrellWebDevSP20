@@ -53,16 +53,9 @@ h1.siteTitle{
 
 .gridContainer{
     display: grid;
-    grid-template-columns: 1rem 1fr 1fr 1fr 1fr 1fr 1rem;
-    grid-template-rows: 1rem 1fr 1fr .5fr .5fr 1rem;
+    grid-template-columns: 1rem 1fr 1fr 1fr 1fr 1rem;
+    grid-template-rows: 1rem 1fr 1fr 1rem;
     grid-gap: 1rem;
-}
-
-.borderlandsPic{
-    grid-row-start: 3;  
-    grid-column-start: 4;
-    width: 14rem; 
-    border-radius: .5rem;
 }
 
 .circle{
@@ -70,7 +63,7 @@ h1.siteTitle{
 }
 
 .aboutPicture1{
-    grid-column-start: 6;
+    grid-column-start: 5;
     grid-row-start: 2;
     grid-row-end: 5;
     width: 20rem;
@@ -102,28 +95,24 @@ h1.siteTitle{
     border-radius: 1rem;
 }
 
-.favoriteGames{
-    grid-row-start: 3;
-    grid-column-start: 5;
-    background-color: #cccc;
-    padding: 1rem;
-    border-radius: 1rem;
-}
 
-.favoriteMusic{
-    grid-row-start: 2;
-    grid-column-start: 5;
-    background-color: #cccc;
-    padding: 1rem;
-    border-radius: 1rem;
+.skillsList{
+    list-style: none;
 }
-
 
 
 .faceShot{
     grid-row-start: 2;
     grid-column-start: 2;
-    width: 14rem;
+    width: 16rem;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.ArtsyPic{
+    grid-row-start: 3;
+    grid-column-start: 4;
+    width: 20rem;
     height: auto;
     border-radius: .5rem;
 }
@@ -181,15 +170,24 @@ div.row{
 }
 
 img.containerContent{
-    display: flex;
     height: 25vw;
     width: auto;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 p.imageBottomText{
     text-align: center;
 }
+
+
+.width880{
+    width: 880px;
+}
+
+.width
 
 #contactInfo
 {
