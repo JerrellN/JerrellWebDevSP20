@@ -180,6 +180,8 @@ img.containerContent{
 
 p.imageBottomText{
     text-align: center;
+    display: inline-block;
+    max-width: 40rem;
 }
 
 
