@@ -8,7 +8,7 @@ body{
 }
 
 #navBar{
-    width: 99.5vw;
+    width: 99.5%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
