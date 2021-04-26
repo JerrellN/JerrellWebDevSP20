@@ -55,11 +55,6 @@ h1.siteTitle{
     border-radius: 5rem;
 }
 
-.aboutPicture1{
-    width: 20rem;
-    height: auto;
-    border-radius: .5rem;
-}
 
 .kkLogo{
     width: 10rem;
@@ -83,18 +78,6 @@ h1.siteTitle{
 }
 
 
-.faceShot{
-    width: 16rem;
-    height: auto;
-    border-radius: .5rem;
-}
-
-.ArtsyPic{
-    width: 16rem;
-    height: auto;
-    border-radius: .5rem;
-}
-
 @media screen and (min-width: 362px){
     .aboutPicture1{
         width: 8rem;
@@ -106,6 +89,19 @@ h1.siteTitle{
         height: auto;
     }
     
+}
+
+
+.aboutPicture1{
+    width: 20rem;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.ArtsyPic{
+    width: 16rem;
+    height: auto;
+    border-radius: .5rem;
 }
 
 .favoriteList{
@@ -177,8 +173,6 @@ p.imageBottomText{
 .width880{
     width: 880px;
 }
-
-.width
 
 #contactInfo
 {
