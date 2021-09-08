@@ -1,0 +1,27 @@
+#container{
+    width: 40vw;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-content: center;
+    border: dotted gray;
+    
+}
+
+div.row{
+    
+}
+
+img.galleryImage{
+    height: 10vw;
+    border: black dotted;
+    margin: .4vw;
+
+}
+
+h1{
+    text-align: center;
+}

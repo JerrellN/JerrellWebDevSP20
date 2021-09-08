@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navBar{
+    width: 99.5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #303030;
+    border-radius: 5pt;
+    align-items: center;
+}
+
+#navBarMenu{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li.navBarElement{
+    padding: calc(5px + .1vw);
+}
+
+a.navBarContent{
+    color: #d6d6c2;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: calc(5px + .1vw);
+    padding: 5px;
+}
+
+a.navBarContent:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+h1.siteTitle{
+    color: white;
+    font-size: calc(20px + 1vw);
+    font-family: 'Squada One', cursive;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.circle{
+    border-radius: 5rem;
+}
+
+
+.kkLogo{
+    width: 10rem;
+    margin: 1rem;
+}
+
+.aboutMe{
+    text-indent: 1rem;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.socials{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+.skillsList{
+    list-style: none;
+}
+
+
+@media screen and (min-width: 362px){
+    .aboutPicture1{
+        width: 8rem;
+        height: auto;
+    }
+
+    .ArtsyPic{
+        width: 6rem;
+        height: auto;
+    }
+    
+}
+
+
+.aboutPicture1{
+    width: 20rem;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.ArtsyPic{
+    width: 16rem;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.favoriteList{
+    list-style: none;
+}
+
+.hobbies{
+    background-color: #cccc;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+img.conceptArt{
+    height: 200px;
+    width: auto;
+    padding: 20px;
+}
+
+h1.pageTitle{
+    text-align: center;
+}
+
+div.container{
+    width: 40vw;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border-radius: 5pt;
+    align-items: center;
+}
+
+div.row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.imgCard{
+    background-color: #cccc;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    max-width: 40vw;
+}
+
+.imgCard:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img.containerContent{
+    max-height: 25vw;
+    max-width: 30vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p.imageBottomText{
+    text-align: center;
+    display: inline-block;
+    max-width: 40rem;
+}
+
+
+.width880{
+    width: 880px;
+}
+
+#contactInfo
+{
+    float: right;
+    color: #757575;
+}
+
+#resume{
+    float: right;
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+#resume:hover{
+    color:#5c5c5c;
+    text-decoration: underline;
+}
+
+#homeLink
+{
+    text-decoration: none;
+}
+
+.header{
+    text-align: center;
+}
+
+.section{
+    background-color: #303030;
+    color:white;
+    font-size: large;
+    border-radius: 8px;
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+.sectionContent{
+    width: 10vw;
+    height: auto;
+}
