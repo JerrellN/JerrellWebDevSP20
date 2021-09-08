@@ -146,7 +146,7 @@ div.row{
     padding: 1rem;
     border-radius: 1rem;
     margin: 1rem;
-    
+    max-width: 40vw;
 }
 
 .imgCard:hover{
@@ -155,8 +155,8 @@ div.row{
 }
 
 img.containerContent{
-    height: 25vw;
-    width: auto;
+    max-height: 25vw;
+    max-width: 30vw;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -200,3 +200,16 @@ p.imageBottomText{
     text-align: center;
 }
 
+.section{
+    background-color: #303030;
+    color:white;
+    font-size: large;
+    border-radius: 8px;
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+.sectionContent{
+    width: 10vw;
+    height: auto;
+}
