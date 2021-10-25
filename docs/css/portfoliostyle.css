@@ -80,12 +80,12 @@ h1.siteTitle{
 
 @media screen and (min-width: 362px){
     .aboutPicture1{
-        width: 8rem;
+        width: 40vw;
         height: auto;
     }
 
     .ArtsyPic{
-        width: 6rem;
+        width: 40vw;
         height: auto;
     }
     
