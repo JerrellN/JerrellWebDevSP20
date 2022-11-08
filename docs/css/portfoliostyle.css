@@ -164,11 +164,21 @@ img.containerContent{
 }
 
 p.imageBottomText{
-    text-align: center;
     display: inline-block;
     max-width: 40rem;
 }
 
+.centeredText{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italics{
+    font-style: italic;
+}
 
 .width880{
     width: 880px;
