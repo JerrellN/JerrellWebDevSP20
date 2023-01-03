@@ -135,6 +135,11 @@ div.container{
     align-items: center;
 }
 
+p.indent{
+    text-indent: 15px;
+    line-height: 1.25;
+}
+
 div.row{
     display: flex;
     justify-content: space-evenly;
